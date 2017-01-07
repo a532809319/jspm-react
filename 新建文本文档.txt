@@ -1,0 +1,9 @@
+browser-sync start --server --no-notify --files 'index.html, *.js'
+jspm bundle app/main app/build.js 
+jspm bundle app/main app/build.js --inject
+  react  学习布局 安装:
+jspm install react-dom@0.14.8
+ jspm install react@0.14.8
+  jspm install  semantic-ui
+  jspm install  css
+  browser-sync start --server --no-notify --files 'index.html, app/* */*.js'
