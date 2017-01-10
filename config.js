@@ -12,20 +12,6 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
-  bundles: {
-    "a.js": [
-      "main.js",
-      "fruits.js",
-      "npm:jquery@3.1.1.js",
-      "npm:jquery@3.1.1/dist/jquery.js"
-    ],
-    "app/build.js": [
-      "app/main.js",
-      "app/fruits.js",
-      "github:components/jquery@3.1.1.js",
-      "github:components/jquery@3.1.1/jquery.js"
-    ]
-  },
 
   map: {
     "babel": "npm:babel-core@5.8.38",
